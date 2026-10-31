@@ -3,7 +3,7 @@ import "./_App.scss"
 import DailyForecast from "./components/DailyForecast"
 import DayForecast from "./components/DayForecast"
 import Footer from "./components/Footer"
-import Header from "./components/Header"
+import Header from "./components/Header/Header"
 import HourlyForecast from "./components/HourlyForecast"
 
 function App() {

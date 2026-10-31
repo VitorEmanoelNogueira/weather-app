@@ -1,0 +1,61 @@
+.c-unit {
+    &__toggle-menu {
+        font-size: var(--font-size-md);
+        display: flex;
+        gap: 0.5em;
+        padding: 0.5em;
+        color: var(--neutral-0);
+        fill: var(--neutral-0);
+        border: 1px solid transparent;
+        cursor: pointer;
+        anchor-name: --units-trigger;
+    }
+
+    &__menu {
+        min-width: 13rem;
+        margin: 0;
+        position: absolute;
+        position-anchor: --units-trigger;
+        top: anchor(bottom);
+        right: anchor(right);
+        left: auto;
+        margin-block-start: 0.625rem;
+    }
+
+    &__button {
+        display: flex;
+        width: 100%
+    }
+
+    &__fieldset {
+        display: flex;
+        flex-direction: column;
+        border: none;
+        padding: 0;
+    }
+
+    &__fieldset:not(:last-of-type){
+        border-bottom: 1px solid var(--neutral-600);
+        margin-block-end: 0.625em;
+    }
+
+    &__fieldset-title {
+        margin-inline-start: 0.5em;
+        margin-block-end: 0.625em;
+        font-size: var(--font-size-sm);
+        color: var(--neutral-300);
+    }
+
+    &__option {
+        display: flex;
+        justify-content: space-between
+    }
+
+    &__option-input {
+        appearance: none;
+
+        &:checked::after {
+            content: url('../../assets/images/icon-checkmark.svg');
+        }
+    }
+}

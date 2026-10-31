@@ -1,0 +1,9 @@
+.c-header{
+    display: flex;
+    justify-content: space-between;
+
+    &__logo{
+        width: 9.375rem;
+        fill: var(--neutral-0);
+    }
+}

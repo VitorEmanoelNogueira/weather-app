@@ -1,11 +1,26 @@
+@use "../abstracts" as *;
 body {
     min-height: 100vh;
-    display: flex;
-    justify-content: center;
+    background-color: var(--neutral-900);
+    color: var(--neutral-0);
+    font-family: $font-family-body;
+    font-weight: normal;
+    font-size: var(--font-size-base)
 }
 
-img, svg{
+h1{
+    font-family: $font-family-heading;
+}
+
+img,
+svg {
     display: block;
     max-inline-size: 100%;
     block-size: auto;
+}
+
+button{
+    background: none;
+    border: 1px solid transparent;
+    color: inherit;
 }

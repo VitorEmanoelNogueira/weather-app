@@ -1,0 +1,19 @@
+@use "../abstracts/variables" as *;
+
+.o-dropdown-panel {
+    color: var(--neutral-0);
+    font-size: var(--font-size-md);
+
+    &__option{
+        padding: 0.75em 0.5em;
+        border-radius: $radius-md;
+        margin-block: 0.125em;
+        cursor: pointer;
+    }
+
+    &__option:hover, &__option:has(input:checked) {
+        background-color: var(--neutral-700);
+    }
+}
+
+    

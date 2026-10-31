@@ -1,3 +1,11 @@
-.o-surface{}
+@use "../abstracts" as a;
 
-.o-surface--bordered{}
+.o-surface{
+    background-color: var(--neutral-800);
+    border-radius: a.$radius-md;
+}
+
+.o-surface--bordered{
+    border: 1px solid var(--neutral-600)
+}
+
