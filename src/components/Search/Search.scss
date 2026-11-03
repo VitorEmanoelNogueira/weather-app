@@ -1,0 +1,72 @@
+@use "../../scss/abstracts/" as *;
+
+.c-search {
+    width: 100%;
+
+    &__form {
+        display: flex;
+        flex-direction: column;
+        gap: 0.625rem;
+    }
+
+    &__input-wrapper {
+        display: flex;
+        color: var(--neutral-200);
+        border: 1px solid transparent;
+        cursor: pointer;
+
+        &:has(input:focus){
+            outline: 2px solid var(--neutral-0);
+        }
+    }
+
+    &__icon{
+        margin-inline-start: 1.5rem;
+    }
+
+    &__input {
+        flex-grow: 1;
+        background: none;
+        border: none;
+        color: inherit;
+        padding: 0.75em;
+        outline: none;
+
+        &::placeholder {
+            color: inherit;
+        }
+
+        &::-webkit-search-cancel-button {
+            -webkit-appearance: none;
+            appearance: none;
+        }
+    }
+
+    &__suggestions{
+        display: flex;
+        flex-direction: column;
+        gap: 0.325rem;
+        list-style: none;
+    }
+
+    &__suggestion{
+        border: 1px solid transparent;
+        
+        @include hover{
+            border-color: var(--neutral-600);
+        }
+    }
+
+    &__submit {
+        background-color: var(--blue-500);
+        border-radius: $radius-md;
+        padding: 0.75em;
+        transition: 150ms ease-out;
+
+        @include hover{
+            background-color: var(--blue-700);
+        }
+
+        @include reduced-motion;
+    }
+}

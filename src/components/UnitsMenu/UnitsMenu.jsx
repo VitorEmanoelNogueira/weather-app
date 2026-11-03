@@ -5,8 +5,6 @@ export default function UnitsMenu() {
 
     const menuTitle = useRef(null)
 
-
-
     return (
         <div className="c-unit">
             <button

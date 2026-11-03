@@ -1,20 +1,28 @@
 
 import "./_App.scss"
-import DailyForecast from "./components/DailyForecast"
-import DayForecast from "./components/DayForecast"
-import Footer from "./components/Footer"
 import Header from "./components/Header/Header"
-import HourlyForecast from "./components/HourlyForecast"
+import Search from "./components/Search/Search"
+import DayForecast from "./components/DayForecast/DayForecast"
+import DailyForecast from "./components/DailyForecast/DailyForecast"
+import HourlyForecast from "./components/HourlyForecast/HourlyForecast"
+import Footer from "./components/Footer/Footer"
 
 function App() {
   return (
     <>
       <Header />
-      <main>
-        <DayForecast />
-        <DailyForecast />
-        <HourlyForecast />
+
+      <main className="l-main">
+        <h1>How's the sky looking today?</h1>
+        <Search />
+        
+        <div className="l-forecasts">
+          <DayForecast />
+          <DailyForecast />
+          <HourlyForecast />
+        </div>
       </main>
+
       <Footer />
     </>
   )

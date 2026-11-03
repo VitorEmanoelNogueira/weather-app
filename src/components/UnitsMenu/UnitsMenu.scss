@@ -1,3 +1,5 @@
+@use "../../scss/abstracts/" as *;
+
 .c-unit {
     &__toggle-menu {
         font-size: var(--font-size-md);
@@ -7,8 +9,12 @@
         color: var(--neutral-0);
         fill: var(--neutral-0);
         border: 1px solid transparent;
-        cursor: pointer;
         anchor-name: --units-trigger;
+        
+        @include hover{
+            background-color: var(--neutral-700);
+        }
+
     }
 
     &__menu {
@@ -48,7 +54,15 @@
 
     &__option {
         display: flex;
-        justify-content: space-between
+        justify-content: space-between;
+
+        &:has(input:checked){
+            background-color: var(--neutral-700);
+            
+            @include forced-colors{
+                outline: 1px solid Highlight;
+            }
+        }
     }
 
     &__option-input {

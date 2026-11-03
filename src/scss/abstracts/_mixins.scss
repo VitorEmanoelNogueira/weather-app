@@ -1,0 +1,25 @@
+@mixin hover{
+  @media (hover: hover) and (pointer: fine){
+    &:hover{
+      @content;
+    }
+  }
+}
+
+@mixin reduced-motion {
+  @media (prefers-reduced-motion: reduce) {
+    transition: none;
+  }
+}
+
+@mixin forced-colors{
+  @media (forced-colors: active){
+    @content;
+  }
+}
+
+@mixin breakpoint($width){
+  @media screen and (min-width: $width){
+    @content;
+  }
+}
