@@ -1,0 +1,76 @@
+@use "../../scss/abstracts" as *;
+
+.c-day-forecast{
+    display: flex;
+    flex-flow: column;
+
+    &__overview{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-self: center;
+        min-height: 17.8rem;
+        max-width: 21.875rem;
+        width: 100%;
+        gap: 1.25rem;
+        background: var(--blue-500) url("../../assets/images/bg-today-small.svg") no-repeat center;
+        background-size: cover;
+        border-radius: $radius-lg;
+    }
+
+    &__location-info{
+        text-align: center;
+    }
+
+    &__location{
+        font-size: var(--font-size-lg);
+        margin-block: 0 0.3125em;
+    }
+
+    &__date{
+        color: var(--neutral-200);
+    }
+
+    &__weather{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        gap: 1.25rem;
+        
+    }
+
+    &__climate-icon{
+        width: 7.5rem;
+    }
+
+    &__temperature {
+        font-size: var(--font-size-display);
+        font-weight: $font-weight-semibold;
+        font-style: italic;
+        margin: 0;
+    }
+
+    &__conditions{
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(8.125rem, 1fr));
+        gap: 0.875rem;
+        max-width: 50rem;
+    }
+
+    &__condition{
+        max-width: 11.25rem;
+        padding: 1.25rem;
+    }
+
+    &__condition-label{
+        color: var(--neutral-200);
+        margin-block-end: 1.25rem;
+    }
+
+    &__condition-value{
+        font-size: var(--font-size-lg);
+        font-weight: 300;
+        margin: 0;
+    }
+}
