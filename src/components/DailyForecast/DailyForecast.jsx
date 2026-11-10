@@ -3,8 +3,8 @@ import iconRain from "../../assets/images/icon-storm.webp"
 
 export default function DailyForecast() {
     return (
-        <section className="c-daily-forecast">
-            <h3 className="c-daily-forecast__title">Daily forecast</h3>
+        <section className="c-daily-forecast" aria-labelledby="daily-forecast-title">
+            <h3 className="c-daily-forecast__title" id="daily-forecast-title">Daily forecast</h3>
             <ol className="c-daily-forecast__cards">
 
                 <li className="c-daily-forecast__card o-surface o-surface--bordered">

@@ -3,12 +3,13 @@ import iconSunny from "../../assets/images/icon-sunny.webp"
 
 export default function DayForecast() {
     return (
-        <section className="c-day-forecast" aria-labelledby="c-day-forecast-title">
+        <section className="c-day-forecast" aria-labelledby="day-forecast-title">
 
             <div className="c-day-forecast__overview">
 
                 <div className="c-day-forecast__location-info">
                     <h2 className="c-day-forecast__location" id="day-forecast-title">Berlin, Germany</h2>
+
                     <time className="c-day-forecast__date" dateTime="2025-08-05"> Tuesday, Aug 5, 2025</time>
                 </div>
 

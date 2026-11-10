@@ -3,6 +3,7 @@
 .c-day-forecast{
     display: flex;
     flex-flow: column;
+    gap: 1.25rem;
 
     &__overview{
         display: flex;

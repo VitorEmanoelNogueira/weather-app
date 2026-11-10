@@ -1,15 +1,14 @@
 .c-daily-forecast{
 
-    &__title{}
+    &__title{
+        margin-block: 0 1.25rem;
+    }
     
     &__cards{
         display: grid;
         grid-template-columns: repeat(auto-fit, minmax(4.6875rem, 1fr));
         grid-auto-flow: row;
         gap: 1rem;
-        list-style: none;
-        padding: 0;
-        margin: 0;
     }
 
     &__card{
@@ -20,8 +19,6 @@
         gap: 1rem;
         padding-block: 1rem;
     }
-
-    &__day{}
 
     &__icon{
         width: 3.75rem;
