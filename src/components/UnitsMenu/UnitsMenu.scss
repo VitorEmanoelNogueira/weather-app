@@ -2,7 +2,7 @@
 
 .c-unit {
     &__toggle-menu {
-        font-size: var(--font-size-md);
+        font-size: var(--font-size-sm);
         display: flex;
         gap: 0.5em;
         padding: 0.5em;
@@ -15,6 +15,14 @@
             background-color: var(--neutral-700);
         }
 
+    }
+
+    &__icon-gear{
+        width: 0.875rem;
+    }
+
+    &__icon-chevron{
+        width: 0.625rem;
     }
 
     &__menu {

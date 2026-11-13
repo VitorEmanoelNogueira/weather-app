@@ -17,12 +17,17 @@
     --blue-700: hsl(248, 70%, 36%);
 
     // FONT SIZES
-    --font-size-sm: 0.875rem; // 14px
-    --font-size-md: 1rem; // 16px
+    --font-size-sm: 0.875rem;   // 14px
+    --font-size-md: 1rem;       // 16px
     --font-size-base: 1.125rem; // 18px
-    --font-size-lg: 2rem; // 32px
-    --font-size-h1: 3.5rem; // 50px
-    --font-size-h2: 1.875rem; // 30px
-    --font-size-h3: var(--font-size-base); //18px
-    --font-size-display: 6.25rem; // 100px
+    --font-size-lg: 1.25rem;    // 20px
+    --font-size-xl: 1.5rem;     // 24px
+    --font-size-2xl: 2rem;      // 32px
+    --font-size-3xl: 3.125rem;  // 50px
+    --font-size-4xl: 6.25rem;   // 100px
+
+    --font-size-h1: var(--font-size-3xl);
+    --font-size-h2: 1.75rem; // 28px
+    --font-size-h3: var(--font-size-lg);
+    --font-size-display: var(--font-size-4xl);
 }

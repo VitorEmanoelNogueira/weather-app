@@ -42,6 +42,118 @@ export default function HourlyForecast() {
                     </div>
                     <span className="c-hourly-forecast__temperature">68°</span>
                 </li>
+
+                <li className="c-hourly-forecast__hour-item o-surface--bordered">
+                    <div className="c-hourly-forecast__weather">
+                        <img className="c-hourly-forecast__icon" src={partlyCloudy} alt="Partly Cloudy" />
+                        <time className="c-hourly-forecast__hour" dateTime="">4 PM</time>
+                    </div>
+                    <span className="c-hourly-forecast__temperature">68°</span>
+                </li>
+
+                <li className="c-hourly-forecast__hour-item o-surface--bordered">
+                    <div className="c-hourly-forecast__weather">
+                        <img className="c-hourly-forecast__icon" src={partlyCloudy} alt="Partly Cloudy" />
+                        <time className="c-hourly-forecast__hour" dateTime="">4 PM</time>
+                    </div>
+                    <span className="c-hourly-forecast__temperature">68°</span>
+                </li>
+
+                <li className="c-hourly-forecast__hour-item o-surface--bordered">
+                    <div className="c-hourly-forecast__weather">
+                        <img className="c-hourly-forecast__icon" src={partlyCloudy} alt="Partly Cloudy" />
+                        <time className="c-hourly-forecast__hour" dateTime="">4 PM</time>
+                    </div>
+                    <span className="c-hourly-forecast__temperature">68°</span>
+                </li>
+
+                <li className="c-hourly-forecast__hour-item o-surface--bordered">
+                    <div className="c-hourly-forecast__weather">
+                        <img className="c-hourly-forecast__icon" src={partlyCloudy} alt="Partly Cloudy" />
+                        <time className="c-hourly-forecast__hour" dateTime="">4 PM</time>
+                    </div>
+                    <span className="c-hourly-forecast__temperature">68°</span>
+                </li>
+
+                <li className="c-hourly-forecast__hour-item o-surface--bordered">
+                    <div className="c-hourly-forecast__weather">
+                        <img className="c-hourly-forecast__icon" src={partlyCloudy} alt="Partly Cloudy" />
+                        <time className="c-hourly-forecast__hour" dateTime="">4 PM</time>
+                    </div>
+                    <span className="c-hourly-forecast__temperature">68°</span>
+                </li>
+
+                <li className="c-hourly-forecast__hour-item o-surface--bordered">
+                    <div className="c-hourly-forecast__weather">
+                        <img className="c-hourly-forecast__icon" src={partlyCloudy} alt="Partly Cloudy" />
+                        <time className="c-hourly-forecast__hour" dateTime="">4 PM</time>
+                    </div>
+                    <span className="c-hourly-forecast__temperature">68°</span>
+                </li>
+
+                <li className="c-hourly-forecast__hour-item o-surface--bordered">
+                    <div className="c-hourly-forecast__weather">
+                        <img className="c-hourly-forecast__icon" src={partlyCloudy} alt="Partly Cloudy" />
+                        <time className="c-hourly-forecast__hour" dateTime="">4 PM</time>
+                    </div>
+                    <span className="c-hourly-forecast__temperature">68°</span>
+                </li>
+
+                <li className="c-hourly-forecast__hour-item o-surface--bordered">
+                    <div className="c-hourly-forecast__weather">
+                        <img className="c-hourly-forecast__icon" src={partlyCloudy} alt="Partly Cloudy" />
+                        <time className="c-hourly-forecast__hour" dateTime="">4 PM</time>
+                    </div>
+                    <span className="c-hourly-forecast__temperature">68°</span>
+                </li>
+
+                <li className="c-hourly-forecast__hour-item o-surface--bordered">
+                    <div className="c-hourly-forecast__weather">
+                        <img className="c-hourly-forecast__icon" src={partlyCloudy} alt="Partly Cloudy" />
+                        <time className="c-hourly-forecast__hour" dateTime="">4 PM</time>
+                    </div>
+                    <span className="c-hourly-forecast__temperature">68°</span>
+                </li>
+
+                <li className="c-hourly-forecast__hour-item o-surface--bordered">
+                    <div className="c-hourly-forecast__weather">
+                        <img className="c-hourly-forecast__icon" src={partlyCloudy} alt="Partly Cloudy" />
+                        <time className="c-hourly-forecast__hour" dateTime="">4 PM</time>
+                    </div>
+                    <span className="c-hourly-forecast__temperature">68°</span>
+                </li>
+
+                <li className="c-hourly-forecast__hour-item o-surface--bordered">
+                    <div className="c-hourly-forecast__weather">
+                        <img className="c-hourly-forecast__icon" src={partlyCloudy} alt="Partly Cloudy" />
+                        <time className="c-hourly-forecast__hour" dateTime="">4 PM</time>
+                    </div>
+                    <span className="c-hourly-forecast__temperature">68°</span>
+                </li>
+
+                <li className="c-hourly-forecast__hour-item o-surface--bordered">
+                    <div className="c-hourly-forecast__weather">
+                        <img className="c-hourly-forecast__icon" src={partlyCloudy} alt="Partly Cloudy" />
+                        <time className="c-hourly-forecast__hour" dateTime="">4 PM</time>
+                    </div>
+                    <span className="c-hourly-forecast__temperature">68°</span>
+                </li>
+
+                <li className="c-hourly-forecast__hour-item o-surface--bordered">
+                    <div className="c-hourly-forecast__weather">
+                        <img className="c-hourly-forecast__icon" src={partlyCloudy} alt="Partly Cloudy" />
+                        <time className="c-hourly-forecast__hour" dateTime="">4 PM</time>
+                    </div>
+                    <span className="c-hourly-forecast__temperature">68°</span>
+                </li>
+
+                <li className="c-hourly-forecast__hour-item o-surface--bordered">
+                    <div className="c-hourly-forecast__weather">
+                        <img className="c-hourly-forecast__icon" src={partlyCloudy} alt="Partly Cloudy" />
+                        <time className="c-hourly-forecast__hour" dateTime="">4 PM</time>
+                    </div>
+                    <span className="c-hourly-forecast__temperature">68°</span>
+                </li>
             </ol>
         </section>
     )

@@ -31,6 +31,7 @@
         color: inherit;
         padding: 0.75em;
         outline: none;
+        font-size: var(--font-size-lg);
 
         &::placeholder {
             color: inherit;
@@ -50,6 +51,7 @@
 
     &__suggestion{
         border: 1px solid transparent;
+        padding-block: 0.625rem;
         
         @include hover{
             border-color: var(--neutral-600);
@@ -57,10 +59,11 @@
     }
 
     &__submit {
-        background-color: var(--blue-500);
-        border-radius: $radius-md;
         padding: 0.75em;
         transition: 150ms ease-out;
+        background-color: var(--blue-500);
+        border-radius: $radius-md;
+        font-size: var(--font-size-lg);
 
         @include hover{
             background-color: var(--blue-700);

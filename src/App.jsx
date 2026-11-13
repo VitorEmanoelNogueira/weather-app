@@ -13,7 +13,7 @@ function App() {
       <Header />
 
       <main className="l-main">
-        <h1>How's the sky looking today?</h1>
+        <h1>How’s the sky looking today?</h1>
         <Search />
         
         <div className="l-forecasts">

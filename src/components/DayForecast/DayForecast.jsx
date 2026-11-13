@@ -21,7 +21,7 @@ export default function DayForecast() {
 
             <dl className="c-day-forecast__conditions">
                 <div className="c-day-forecast__condition o-surface o-surface--bordered">
-                    <dt className="c-day-forecast__condition-label">Feels like</dt>
+                    <dt className="c-day-forecast__condition-label">Feels Like</dt>
                     <dd className="c-day-forecast__condition-value">64°</dd>
                 </div>
 
